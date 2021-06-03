@@ -145,9 +145,9 @@ function uploadcar2(){
                                 uploadcar2()
                                 }
                             }
-                        }
+                        
                             if(car1_x > 700)
                              { console.log("car1");
                               document.getElementById('game_status').innerHTML = "Car 1 Won!!"; }
                          else if(car2_x > 700) { console.log("car2");
-                             document.getElementById('game_status').innerHTML = "Car 2 Won!!"; }
+                             document.getElementById('game_status').innerHTML = "Car 2 Won!!"; }}
